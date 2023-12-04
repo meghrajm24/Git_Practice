@@ -22,7 +22,7 @@ public class HomeController
 	public String addData(@RequestBody Employee e)
 	{
 		hsi.saveData(e);
-		return "Data Saved";
+		return "Data Added";
 	}
 	
 	@GetMapping("/getsingledata/{username}/{password}")
